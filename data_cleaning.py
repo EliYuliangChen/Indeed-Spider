@@ -2,7 +2,7 @@ import json
 from bs4 import BeautifulSoup
 
 # Step 1: Read the JSON file
-with open('C://Users//cheny//Desktop//Eli Project//JobSpider//indeedSpider//jobs.json', 'r') as file:
+with open('your_json_location.json', 'r') as file:
     jobs = json.load(file)
 
 filtered_jobs = []
